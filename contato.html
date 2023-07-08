@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+<body>
+    <form action="" method="get">
+        <!-- cria um formulário -->
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="coloque o nome">
+        </div>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha">
+        </div>
+        <div>
+            <label for="cor">Cor:</label>
+            <input type="color" name="cor" id="cor">
+        </div>
+        <div>
+            <!-- for combina com o primeiro id -->
+            <label for="descricao">Descrição:</label>
+            <textarea name="desc" id="descricao" cols="10" rows="5"></textarea>
+            <!-- name é o nome que será passado para o processamento -->
+        </div>
+        <div>
+            <label for="uf">Estados</label>
+            <select name="uf" id="uf" selected="disable">
+                <option value="" selected="enable"></option>
+                <option value="Piaui">Piaui</option>
+            </select>
+        </div>
+
+        <div>
+            <input class="btn btn-primary" type="submit" value="Enviar">
+            <input class="btn btn-danger" type="reset" value="Cancelar">
+        </div>
+    </form>
+</body>
+</html>
