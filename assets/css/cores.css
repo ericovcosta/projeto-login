@@ -1,0 +1,32 @@
+:root{
+    --cor-base:rgb(86, 3, 45);
+    --cor-principal:hsl(270,60%,40%);
+    --cor-secundario:hsl(279,60%,45%);
+}
+
+body{
+    background-color: var(--cor-principal);
+    /* color: ; */
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.quadrado{
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    border: solid;
+}
+.cor1{
+    color: var(--cor-principal);
+    background-color: rgba(127,243,15,0.5);
+    /* border-color: currentColor; */
+}
+.cor2{                /*  r g b*/
+    background-color: #cdcbac;
+}
+.cor3{
+    background-color: hsla(165, 55%, 67%, 0.69);    
+}
